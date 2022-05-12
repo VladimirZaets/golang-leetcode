@@ -1,2 +1,5 @@
 # golang-leetcode
-Leetcode solutions
+Leetcode solutions:
+
+#### Array:
+* [Find Pivot Index](array/find-pivot-index.go)
