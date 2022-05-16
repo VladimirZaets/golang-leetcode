@@ -7,3 +7,4 @@ Leetcode solutions:
 * [Plus One](array/plus_one.go)
 * [Diagonal Traverse](array/diagonal_traverse.go)
 * [Spiral Matrix](array/spiral_matrix.go)
+* [Pascal's Triangle](array/pascals_triangle.go)

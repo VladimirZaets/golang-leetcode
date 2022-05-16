@@ -1,16 +1,5 @@
 package main
 
-import "fmt"
-
-func main() {
-	res := spiralOrder([][]int{
-		{1, 2, 3},
-		{4, 5, 6},
-		{7, 8, 9},
-	})
-	fmt.Println("result", res)
-}
-
 func spiralOrder(matrix [][]int) []int {
 	const (
 		LEFT = iota
