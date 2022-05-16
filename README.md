@@ -8,3 +8,4 @@ Leetcode solutions:
 * [Diagonal Traverse](array/diagonal_traverse.go)
 * [Spiral Matrix](array/spiral_matrix.go)
 * [Pascal's Triangle](array/pascals_triangle.go)
+* [Add Binary](string/add_binary.go)
