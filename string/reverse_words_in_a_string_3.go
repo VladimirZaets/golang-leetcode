@@ -1,10 +1,10 @@
-package main
+package string
 
 import (
 	"strings"
 )
 
-func reverseWords(s string) string {
+func ReverseWordsInSting2(s string) string {
 	slf := strings.Fields(s)
 	for i, v := range slf {
 		slf[i] = reverseString(v)

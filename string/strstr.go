@@ -1,6 +1,6 @@
-package main
+package string
 
-func strStr(haystack string, needle string) int {
+func StrStr(haystack string, needle string) int {
 	needleLen := len(needle)
 	haystackLen := len(haystack)
 	if haystack == needle {

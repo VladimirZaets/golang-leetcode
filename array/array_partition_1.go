@@ -1,4 +1,4 @@
-package main
+package array
 
 import "sort"
 
@@ -9,7 +9,7 @@ func min(a, b int) int {
 	return b
 }
 
-func arrayPairSum(nums []int) int {
+func ArrayPairSum(nums []int) int {
 	r := 0
 	sort.Ints(nums)
 	for i := 1; i < len(nums); i = i + 2 {

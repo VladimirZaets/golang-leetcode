@@ -1,6 +1,6 @@
-package main
+package array
 
-func rotate(nums []int, k int) {
+func RotateArray(nums []int, k int) {
 	l := len(nums)
 	k = k % l
 

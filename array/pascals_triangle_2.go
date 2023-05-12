@@ -1,6 +1,6 @@
-package main
+package array
 
-func getRow(rowIndex int) []int {
+func PascaleTriangle2(rowIndex int) []int {
 	prev := []int{1}
 	var current []int
 

@@ -1,4 +1,4 @@
-package main
+package array
 
 func DominantIndex(nums []int) int {
 	maxNumber := -1

@@ -1,6 +1,6 @@
-package main
+package array
 
-func removeElement(nums []int, val int) int {
+func RemoveElement(nums []int, val int) int {
 	k := 0
 	for i := 0; i < len(nums); i++ {
 		v := nums[i]

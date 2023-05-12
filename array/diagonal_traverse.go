@@ -1,6 +1,6 @@
-package main
+package array
 
-func findDiagonalOrder(mat [][]int) []int {
+func FindDiagonalOrder(mat [][]int) []int {
 	direction := 1
 	col := 0
 	row := 0

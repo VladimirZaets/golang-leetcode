@@ -1,6 +1,6 @@
-package main
+package string
 
-func longestCommonPrefix(strs []string) string {
+func LongestCommonPrefix(strs []string) string {
 	i := 0
 	common := ""
 	for {

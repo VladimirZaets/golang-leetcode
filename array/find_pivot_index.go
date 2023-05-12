@@ -1,4 +1,4 @@
-package main
+package array
 
 func FindPivotIndex(nums []int) int {
 	sum := 0

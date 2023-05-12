@@ -1,6 +1,6 @@
-package main
+package array
 
-func minSubArrayLen(target int, nums []int) int {
+func MinSubArrayLen(target int, nums []int) int {
 	sum := 0
 	min := len(nums) + 1
 	j := 0

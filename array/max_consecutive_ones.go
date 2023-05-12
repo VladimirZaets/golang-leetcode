@@ -1,6 +1,6 @@
-package main
+package array
 
-func findMaxConsecutiveOnes(nums []int) int {
+func FindMaxConsecutiveOnes(nums []int) int {
 	max := 0
 	current := 0
 	for i := 0; i < len(nums); i++ {

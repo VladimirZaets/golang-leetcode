@@ -1,4 +1,4 @@
-package main
+package array
 
 func PlusOne(digits []int) []int {
 	l := len(digits) - 1

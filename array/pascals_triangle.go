@@ -1,6 +1,6 @@
-package main
+package array
 
-func generate(numRows int) [][]int {
+func PascaleTriangle(numRows int) [][]int {
 	result := make([][]int, numRows)
 	result[0] = []int{1}
 	for i := 1; i < numRows; i++ {

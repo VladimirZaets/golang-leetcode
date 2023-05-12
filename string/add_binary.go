@@ -1,11 +1,11 @@
-package main
+package string
 
 import (
 	"strconv"
 	"strings"
 )
 
-func addBinary(a string, b string) string {
+func AddBinary(a string, b string) string {
 	var longS, shortS string
 	var longI, shortI, mv int
 	if len(a) > len(b) {

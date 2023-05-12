@@ -1,6 +1,6 @@
-package main
+package string
 
-func reverseString(s []byte) {
+func ReverseString(s []byte) {
 	j := len(s) - 1
 	h := len(s) / 2
 

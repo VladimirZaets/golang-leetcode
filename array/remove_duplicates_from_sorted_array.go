@@ -1,6 +1,6 @@
-package main
+package array
 
-func removeDuplicates(nums []int) int {
+func RemoveDuplicates(nums []int) int {
 	prev := -101
 	li := 0
 	for i := 0; i < len(nums); i++ {

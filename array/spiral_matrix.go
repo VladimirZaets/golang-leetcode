@@ -1,6 +1,6 @@
-package main
+package array
 
-func spiralOrder(matrix [][]int) []int {
+func SpiralMatrix(matrix [][]int) []int {
 	const (
 		LEFT = iota
 		RIGHT
