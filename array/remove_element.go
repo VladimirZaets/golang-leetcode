@@ -12,3 +12,17 @@ func RemoveElement(nums []int, val int) int {
 	}
 	return k
 }
+
+func RemoveElement2(nums []int, val int) int {
+	e := len(nums) - 1
+	replaced := 0
+	for l := len(nums) - 1; l >= 0; l-- {
+		if nums[l] == val {
+			nums[l] = nums[e]
+			replaced++
+			nums[e] = -1
+			e--
+		}
+	}
+	return len(nums) - replaced
+}
