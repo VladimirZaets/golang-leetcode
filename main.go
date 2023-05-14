@@ -58,4 +58,7 @@ func executeArrays() {
 	array.SpiralMatrix([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}})
 	array.SortedSquaresFirst([]int{-4, -1, 0, 3, 10})
 	array.TwoSum([]int{2, 7, 11, 15}, 9)
+	array.MergeSortArray([]int{4, 5, 6, 0, 0, 0}, 3, []int{1, 2, 3}, 3)
+	array.MergeSortArray([]int{1, 2, 4, 5, 6, 0}, 5, []int{3}, 1)
+	array.MergeSortArray([]int{1, 2, 3, 0, 0, 0}, 3, []int{2, 5, 6}, 3)
 }
