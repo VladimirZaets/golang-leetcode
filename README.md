@@ -19,6 +19,8 @@ Leetcode solutions:
 * [Pascal's Triangle II](array/pascals_triangle_2.go)
 * [Remove Duplicates from Sorted array](array/remove_duplicates_from_sorted_array.go)
 * [Squares of a sorted array](array/squares_of_a_sorted_array.go)
+* [Valid Mountain Array](array/valid_mountaiun_array.go)
+* [Check If N and Its Double Exist](array/check_if_n_and_its_double_exist.go)
 
 #### String:
 * [Add Binary](string/add_binary.go)
