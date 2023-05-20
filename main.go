@@ -66,4 +66,7 @@ func executeArrays() {
 	array.MergeSortArray([]int{4, 5, 6, 0, 0, 0}, 3, []int{1, 2, 3}, 3)
 	array.MergeSortArray([]int{1, 2, 4, 5, 6, 0}, 5, []int{3}, 1)
 	array.MergeSortArray([]int{1, 2, 3, 0, 0, 0}, 3, []int{2, 5, 6}, 3)
+	array.ReplaceElementWithGreatestElementOnRightSide([]int{17, 18, 5, 4, 6, 1})
+	array.MoveZeroes([]int{0, 1, 0, 3, 12})
+	array.SortArrayByParity([]int{3, 1, 2, 4})
 }
