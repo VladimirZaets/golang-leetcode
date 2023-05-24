@@ -40,6 +40,9 @@ func executeGraphDisjointSet() {
 }
 
 func executeArrays() {
+	array.MaxConsecutiveOnes([]int{1, 0, 1, 1, 0, 1, 1})
+	array.FindMaxConsecutiveOnes2([]int{1, 0, 1, 1, 0, 1, 1})
+	array.HeightChecker([]int{1, 1, 4, 2, 1, 3})
 	array.ValidMountainArray2([]int{0, 3, 2, 1})
 	array.ValidMountainArray([]int{0, 3, 2, 1})
 	array.CheckIfNandItsDoubleExist([]int{10, 2, 5, 3})

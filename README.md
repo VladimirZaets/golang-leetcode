@@ -23,7 +23,9 @@ Leetcode solutions:
 * [Check If N and Its Double Exist](array/check_if_n_and_its_double_exist.go)
 * [Replace Elements with Greatest Element on Right Side](array/replace_elements_with_greatest_element_on_right_side.go)
 * [Move Zeroes](array/move_zeroes.go)
-* [Sort Array By Parity](graph/disjointset/sort_array_by_parity.go)
+* [Sort Array By Parity](array/sort_array_by_parity.go)
+* [Height Checker](array/height_checker.go)
+* [Max Consecutive Ones II](array/max_consecutive_ones_2.go)
 
 #### String:
 * [Add Binary](string/add_binary.go)
