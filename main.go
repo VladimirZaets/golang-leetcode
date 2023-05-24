@@ -72,4 +72,7 @@ func executeArrays() {
 	array.ReplaceElementWithGreatestElementOnRightSide([]int{17, 18, 5, 4, 6, 1})
 	array.MoveZeroes([]int{0, 1, 0, 3, 12})
 	array.SortArrayByParity([]int{3, 1, 2, 4})
+	array.FindAllNumbersDisappearedInArray([]int{4, 3, 2, 7, 8, 2, 3, 1})
+	array.FindDisappearedNumbers([]int{4, 3, 2, 7, 8, 2, 3, 1})
+	array.ThirdMaximumNumber([]int{3, 2, 1})
 }

@@ -26,6 +26,7 @@ Leetcode solutions:
 * [Sort Array By Parity](array/sort_array_by_parity.go)
 * [Height Checker](array/height_checker.go)
 * [Max Consecutive Ones II](array/max_consecutive_ones_2.go)
+* [Find All Numbers Disappeared in an Array](array/find_all_numbers_disappeared_in_an_array.go)
 
 #### String:
 * [Add Binary](string/add_binary.go)
