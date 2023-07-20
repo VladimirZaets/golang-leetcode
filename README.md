@@ -19,14 +19,14 @@ Leetcode solutions:
 * [Pascal's Triangle II](array/pascals_triangle_2.go)
 * [Remove Duplicates from Sorted array](array/remove_duplicates_from_sorted_array.go)
 * [Squares of a sorted array](array/squares_of_a_sorted_array.go)
-* [Valid Mountain Array](array/valid_mountaiun_array.go)
+* [Valid Mountain Array](array/valid_mountain_array.go)
 * [Check If N and Its Double Exist](array/check_if_n_and_its_double_exist.go)
-* [Replace Elements with Greatest Element on Right Side](array/replace_elements_with_greatest_element_on_right_side.go)
+* [Replace Elements with Greatest Element on Right Side](array/replace_element_with_greatest_element_on_right_side.go)
 * [Move Zeroes](array/move_zeroes.go)
 * [Sort Array By Parity](array/sort_array_by_parity.go)
 * [Height Checker](array/height_checker.go)
 * [Max Consecutive Ones II](array/max_consecutive_ones_2.go)
-* [Find All Numbers Disappeared in an Array](array/find_all_numbers_disappeared_in_an_array.go)
+* [Find All Numbers Disappeared in an Array](array/find_all_numbers_disappereared_in_an_array.go)
 
 #### String:
 * [Add Binary](string/add_binary.go)
@@ -36,6 +36,19 @@ Leetcode solutions:
 * [Reverse Words in a String](string/reverse_words_in_a_string.go)
 * [Reverse Words in a String III](string/reverse_words_in_a_string_3.go)
 
+#### Graph:
+* [Number of Islands](graph/number_of_islands.go)
+* [Number of Closed Islands](graph/number_of_closed_islands.go)
+* [Number of Enclaves](graph/number_of_enclaves.go)
+* [Binary Tree Inorder Traversal](graph/binary_tree_inorder_traversal.go)
+* [Binary Tree Preorder Traversal](graph/binary_tree_preorder_traversal.go)
+* [Binary Tree Vertical Order Traversal](graph/binary_tree_vertical_order_traversal.go)
+* [Invert Binary Tree](graph/invert_binary_tree.go)
+* [Mine Sweeper](graph/minesweeper.go)
+* [N ary Tree Level Order Traversal](graph/n_ary_tree_level_order_traversal.go)
+* [N ary Tree Postorder Traversal](graph/n_ary_tree_postorder_traversal.go)
+* [N ary Tree Preorder Traversal](graph/n_ary_tree_preorder_traversal.go)
+
 #### Graph / Disjoint Set:
 * [Number of Provinces](graph/disjointset/number_of_provinces.go)
 * [Graph valid tree](graph/disjointset/graph_valid_tree.go)
@@ -44,5 +57,5 @@ Leetcode solutions:
 * [Quick Find](graph/disjointset/quickfind.go)
 * [Quick Union](graph/disjointset/quickunion.go)
 * [Smallest String With Swaps](graph/disjointset/smallest_string_with_swaps.go)
-* [The earliest moment when everyone become friends](graph/disjointset/the_earliest_moment_when_everyone_become_friends.go)
+* [The earliest moment when everyone become friends](graph/disjointset/the_earlist_moment_when_evereone_became_friends.go)
 * [Union by rank](graph/disjointset/unionbyrank.go)

@@ -1,7 +1,5 @@
 package array
 
-import "fmt"
-
 func FindAllNumbersDisappearedInArray(nums []int) []int {
 	var result []int
 	for i := 0; i < len(nums); i++ {
@@ -24,7 +22,6 @@ func FindAllNumbersDisappearedInArray(nums []int) []int {
 func FindDisappearedNumbers(nums []int) []int {
 	for i := range nums {
 		index := abs(nums[i]) - 1
-		fmt.Println(nums)
 
 		if nums[index] > 0 {
 			nums[index] *= -1

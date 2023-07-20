@@ -1,7 +1,9 @@
 package main
 
 import (
+	"fmt"
 	"github.com/VladimirZaets/golang-leetcode/array"
+	"github.com/VladimirZaets/golang-leetcode/graph"
 	"github.com/VladimirZaets/golang-leetcode/graph/disjointset"
 	str "github.com/VladimirZaets/golang-leetcode/string"
 )
@@ -10,6 +12,7 @@ func main() {
 	executeArrays()
 	executeGraphDisjointSet()
 	executeString()
+	executeGraph()
 }
 
 func executeString() {
@@ -19,6 +22,184 @@ func executeString() {
 	str.ReverseString([]byte{'h', 'e', 'l', 'l', 'o'})
 	str.ReverseWords("the sky is blue")
 	str.ReverseWordsInSting2("Let's take LeetCode contest")
+}
+
+func executeGraph() {
+	r0 := graph.Preorder(&graph.Node{
+		Val: 1,
+		Children: []*graph.Node{
+			{
+				Val: 3,
+				Children: []*graph.Node{
+					{
+						Val: 5,
+					},
+					{
+						Val: 6,
+					},
+				},
+			},
+			{
+				Val: 2,
+			},
+			{
+				Val: 4,
+			},
+		},
+	})
+	r1 := graph.PreorderTraversal(&graph.TreeNode{
+		Val: 1,
+		Left: &graph.TreeNode{
+			Val: 2,
+		},
+		Right: &graph.TreeNode{
+			Val: 3,
+		},
+	})
+	r2 := graph.ClosedIsland([][]int{
+		{0, 0, 1, 1, 0, 1, 0, 0, 1, 0},
+		{1, 1, 0, 1, 1, 0, 1, 1, 1, 0},
+		{1, 0, 1, 1, 1, 0, 0, 1, 1, 0},
+		{0, 1, 1, 0, 0, 0, 0, 1, 0, 1},
+		{0, 0, 0, 0, 0, 0, 1, 1, 1, 0},
+		{0, 1, 0, 1, 0, 1, 0, 1, 1, 1},
+		{1, 0, 1, 0, 1, 1, 0, 0, 0, 1},
+		{1, 1, 1, 1, 1, 1, 0, 0, 0, 0},
+		{1, 1, 1, 0, 0, 1, 0, 1, 0, 1},
+		{1, 1, 1, 0, 1, 1, 0, 1, 1, 0},
+	})
+	r3 := graph.ClosedIsland([][]int{
+		{1, 1, 1, 1, 1, 1, 1, 0},
+		{1, 0, 0, 0, 0, 1, 1, 0},
+		{1, 0, 1, 0, 1, 1, 1, 0},
+		{1, 0, 0, 0, 0, 1, 0, 1},
+		{1, 1, 1, 1, 1, 1, 1, 0},
+	})
+	r4 := graph.UpdateBoard([][]byte{
+		{'E', 'E', 'E', 'E', 'E'},
+		{'E', 'E', 'M', 'E', 'E'},
+		{'E', 'E', 'E', 'E', 'E'},
+		{'E', 'E', 'E', 'E', 'E'},
+	}, []int{3, 0})
+	r5 := graph.NumEnclaves([][]int{
+		{0, 1, 1, 0},
+		{0, 0, 1, 0},
+		{0, 0, 1, 0},
+		{0, 0, 0, 0},
+	})
+	r6 := graph.NumIslands([][]byte{
+		{49, 49, 49, 49, 48},
+		{49, 49, 48, 49, 48},
+		{49, 49, 48, 48, 48},
+		{48, 48, 48, 48, 48},
+	})
+	r7 := graph.VerticalOrder(&graph.TreeNode{
+		Val: 3,
+		Left: &graph.TreeNode{
+			Val: 9,
+			Left: &graph.TreeNode{
+				Val: 4,
+			},
+			Right: &graph.TreeNode{
+				Val: 0,
+			},
+		},
+		Right: &graph.TreeNode{
+			Val: 8,
+			Left: &graph.TreeNode{
+				Val: 1,
+			},
+			Right: &graph.TreeNode{
+				Val: 7,
+			},
+		},
+	})
+	r8 := graph.InvertTree(&graph.TreeNode{
+		Val: 4,
+		Left: &graph.TreeNode{
+			Val: 2,
+			Left: &graph.TreeNode{
+				Val: 1,
+			},
+			Right: &graph.TreeNode{
+				Val: 3,
+			},
+		},
+		Right: &graph.TreeNode{
+			Val: 7,
+			Left: &graph.TreeNode{
+				Val: 6,
+			},
+			Right: &graph.TreeNode{
+				Val: 9,
+			},
+		},
+	})
+	r9 := graph.InOrderTraversal(&graph.TreeNode{
+		Val: 1,
+		Right: &graph.TreeNode{
+			Val: 2,
+			Left: &graph.TreeNode{
+				Val: 3,
+			},
+		},
+	})
+	r10 := graph.Postorder(&graph.Node{
+		Val: 1,
+		Children: []*graph.Node{
+			{
+				Val: 3,
+				Children: []*graph.Node{
+					{
+						Val: 5,
+					},
+					{
+						Val: 6,
+					},
+				},
+			},
+			{
+				Val: 2,
+			},
+			{
+				Val: 4,
+			},
+		},
+	})
+	r11 := graph.LevelOrder(&graph.Node{
+		Val: 1,
+		Children: []*graph.Node{
+			{
+				Val: 3,
+				Children: []*graph.Node{
+					{
+						Val: 5,
+					},
+					{
+						Val: 6,
+					},
+				},
+			},
+			{
+				Val: 2,
+			},
+			{
+				Val: 4,
+			},
+		},
+	})
+	fmt.Println(r0)
+	fmt.Println(r1)
+	fmt.Println(r2)
+	fmt.Println(r3)
+	fmt.Println(r4)
+	fmt.Println(r5)
+	fmt.Println(r6)
+	fmt.Println(r7)
+	fmt.Println(r8)
+	fmt.Println(r9)
+	fmt.Println(r10)
+	fmt.Println(r11)
 }
 
 func executeGraphDisjointSet() {

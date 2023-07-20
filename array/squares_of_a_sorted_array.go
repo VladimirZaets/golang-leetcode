@@ -1,5 +1,7 @@
 package array
 
+import "fmt"
+
 func SortedSquaresFirst(nums []int) []int {
 	var negatives []int
 	pointer := 0
@@ -72,4 +74,22 @@ func sortedSquares(nums []int) []int {
 		}
 	}
 	return result
+}
+
+func SquaresOfASortedArray(nums []int) []int {
+	s := 0
+	e := len(nums) - 1
+	r := make([]int, len(nums))
+
+	for s <= e {
+		if nums[s]*nums[s] < nums[e]*nums[e] {
+			r[e] = nums[s] * nums[s]
+			s++
+		} else {
+			r[s] = nums[e] * nums[e]
+			e--
+		}
+	}
+	fmt.Println(r)
+	return r
 }
