@@ -59,3 +59,17 @@ Leetcode solutions:
 * [Smallest String With Swaps](graph/disjointset/smallest_string_with_swaps.go)
 * [The earliest moment when everyone become friends](graph/disjointset/the_earlist_moment_when_evereone_became_friends.go)
 * [Union by rank](graph/disjointset/unionbyrank.go)
+
+#### Dynamic Programming
+* [Climb Stairs](dynamic-programming/climb_stairs.go)
+* [Combination Sum IV](dynamic-programming/combination_sum_4.go)
+* [Fibonacci Number](dynamic-programming/fibonacci_number.go)
+* [Generate Parentheses](dynamic-programming/generate_parentheses.go)
+* [Longest Palindromic Substring](dynamic-programming/longest_palindromic_substring.go)
+* [Max Profit](dynamic-programming/max_profit.go)
+* [Maximum Subarray](dynamic-programming/maximum_subarray.go)
+* [Pascal's Triangle](dynamic-programming/pascals_triangle.go)
+* [Predict the Winner](dynamic-programming/predict_the_winner.go)
+* [Valid Parentheses String](dynamic-programming/valid_parentheses_string.go)
+* [Valid Parentheses](dynamic-programming/valid_parentheses.go)
+* [Valid Sudoku](dynamic-programming/valid_sudoku.go)

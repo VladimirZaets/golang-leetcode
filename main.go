@@ -3,12 +3,14 @@ package main
 import (
 	"fmt"
 	"github.com/VladimirZaets/golang-leetcode/array"
+	dynamic_programming "github.com/VladimirZaets/golang-leetcode/dynamic-programming"
 	"github.com/VladimirZaets/golang-leetcode/graph"
 	"github.com/VladimirZaets/golang-leetcode/graph/disjointset"
 	str "github.com/VladimirZaets/golang-leetcode/string"
 )
 
 func main() {
+	executeDynamicProgramming()
 	executeArrays()
 	executeGraphDisjointSet()
 	executeString()
@@ -256,4 +258,31 @@ func executeArrays() {
 	array.FindAllNumbersDisappearedInArray([]int{4, 3, 2, 7, 8, 2, 3, 1})
 	array.FindDisappearedNumbers([]int{4, 3, 2, 7, 8, 2, 3, 1})
 	array.ThirdMaximumNumber([]int{3, 2, 1})
+}
+
+func executeDynamicProgramming() {
+	r1 := dynamic_programming.Fib(10)
+	r2 := dynamic_programming.PascalsTriangleGenerate(5)
+	r3 := dynamic_programming.ClimbStairs(3)
+	r4 := dynamic_programming.MaxProfit([]int{2, 1, 2, 1, 0, 1, 2})
+	r5 := dynamic_programming.CombinationSum4([]int{1, 2, 3}, 4)
+	r6 := dynamic_programming.LongestPalindrome("aaaa")
+	r7 := dynamic_programming.MaxSubArray([]int{-2, -1})
+	r8 := dynamic_programming.CheckValidString("(*)")
+	r9 := dynamic_programming.GenerateParenthesis(3)
+	r10 := dynamic_programming.GenerateParenthesisMemo(3)
+	r11 := dynamic_programming.PpredictTheWinner([]int{1, 5, 100, 7})
+	r12 := dynamic_programming.PredictTheWinner([]int{1, 5, 100, 7})
+	r13 := dynamic_programming.IsValidSudoku([][]byte{
+		{'5', '3', '.', '.', '7', '.', '.', '.', '.'},
+		{'6', '.', '.', '1', '9', '5', '.', '.', '.'},
+		{'.', '9', '8', '.', '.', '.', '.', '6', '.'},
+		{'8', '.', '.', '.', '6', '.', '.', '.', '3'},
+		{'4', '.', '.', '8', '.', '3', '.', '.', '1'},
+		{'7', '.', '.', '.', '2', '.', '.', '.', '6'},
+		{'.', '6', '.', '.', '.', '.', '2', '8', '.'},
+		{'.', '.', '.', '4', '1', '9', '.', '.', '5'},
+		{'.', '.', '.', '.', '8', '.', '.', '7', '9'},
+	})
+	fmt.Println(r1, r2, r3, r4, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13)
 }
