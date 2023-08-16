@@ -73,3 +73,8 @@ Leetcode solutions:
 * [Valid Parentheses String](dynamic-programming/valid_parentheses_string.go)
 * [Valid Parentheses](dynamic-programming/valid_parentheses.go)
 * [Valid Sudoku](dynamic-programming/valid_sudoku.go)
+* [Delete and Earn](dynamic-programming/delete_and_earn.go)
+* [House Robber](dynamic-programming/house_robber.go)
+* [Min Cost Climbing Stairs](dynamic-programming/min_cost_climbing_stairs.go)
+* [n-th Tribonacci Number](dynamic-programming/nth_tribonacci_number.go)
+* [Sudoku Solver](dynamic-programming/sudoku_solver.go)
