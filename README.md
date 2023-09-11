@@ -78,3 +78,5 @@ Leetcode solutions:
 * [Min Cost Climbing Stairs](dynamic-programming/min_cost_climbing_stairs.go)
 * [n-th Tribonacci Number](dynamic-programming/nth_tribonacci_number.go)
 * [Sudoku Solver](dynamic-programming/sudoku_solver.go)
+* [Maxumym Score From Performing Multiplication Operations](dynamic-programming/maximum_score_from_performing_multiplication_operations.go)
+* [Longest Common Subsequence](dynamic-programming/longest_common_subsequence.go)

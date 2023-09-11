@@ -10,11 +10,11 @@ import (
 )
 
 func main() {
-	//executeDynamicProgramming()
-	//executeArrays()
-	//executeGraphDisjointSet()
-	//executeString()
-	//executeGraph()
+	executeDynamicProgramming()
+	executeArrays()
+	executeGraphDisjointSet()
+	executeString()
+	executeGraph()
 }
 
 func executeString() {
@@ -288,6 +288,8 @@ func executeDynamicProgramming() {
 	r15 := dynamic_programming.MinCostClimbingStairs([]int{1, 100, 1, 1, 1, 100, 1, 1, 100, 1})
 	r16 := dynamic_programming.Tribonacci(4)
 	r17 := dynamic_programming.DeleteAndEarn([]int{8, 10, 4, 9, 1, 3, 5, 9, 4, 10})
+	r18 := dynamic_programming.LongestCommonSubsequence("abcde", "ace")
+	r19 := dynamic_programming.MaximumScore([]int{1, 2, 3}, []int{3, 2, 1})
 	dynamic_programming.SolveSudoku([][]byte{
 		{'5', '3', '.', '.', '7', '.', '.', '.', '.'},
 		{'6', '.', '.', '1', '9', '5', '.', '.', '.'},
@@ -299,5 +301,5 @@ func executeDynamicProgramming() {
 		{'.', '.', '.', '4', '1', '9', '.', '.', '5'},
 		{'.', '.', '.', '.', '8', '.', '.', '7', '9'},
 	})
-	fmt.Println(r1, r2, r3, r4, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14, r15, r16, r17)
+	fmt.Println(r1, r2, r3, r4, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14, r15, r16, r17, r18, r19)
 }
